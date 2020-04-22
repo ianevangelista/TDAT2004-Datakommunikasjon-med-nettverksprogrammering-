@@ -42,7 +42,6 @@ public class Client {
                 String svar = new String(receivePacket.getData(), 0, receivePacket.getLength());
                 System.out.println("Svar fra server: " + svar);
             }
-
             // datagramSocket.close();
         } catch (SocketException e) {
             e.printStackTrace();
